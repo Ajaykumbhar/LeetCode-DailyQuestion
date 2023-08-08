@@ -3,9 +3,11 @@
 
 ### Approach: Binary Search
 
- > We will use the binary search algorithm to efficiently find the target element in the 2D matrix. 
+#### What?
+> We will use the binary search algorithm to efficiently find the target element in the 2D matrix.
+ 
 ####  Why?
- > The binary search approach is applicable because the rows are sorted, and each row's first element is greater than the last element of the previous row.
+> The binary search approach is applicable because the rows are sorted, and each row's first element is greater than the last element of the previous row.
 
 ####  How?
 
