@@ -3,7 +3,8 @@
 #### Approach: Modified Binary Search
 
 #### What? 
-> The algorithm uses a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array. The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
+- We will use a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array.
+> The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
 
 #### How? 
 > The algorithm starts with two pointers, `str` and `end`, which initially point to the start and end of the array, respectively. It enters a loop that continues as long as the `str` pointer is less than or equal to the `end` pointer. This loop represents the binary search process.
