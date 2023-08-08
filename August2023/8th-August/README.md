@@ -38,6 +38,6 @@
    - If the target is within this sorted right half, the search space is narrowed to the right half.
    - Otherwise, the target must be in the left half, so the search space is narrowed to the left half.
 
- - The algorithm repeats steps 1 to 4 until it finds the target or exhausts the search space.
- -  If the target is not found, the algorithm returns -1.
+ ##### The algorithm repeats steps 1 to 4 until it finds the target or exhausts the search space.
+ #####  If the target is not found, the algorithm returns -1.
 
