@@ -4,8 +4,6 @@
 
 #### What? 
 - We will use a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array.
-- The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
-
 #### Why?
 
 - The modified binary search algorithm quickly reduces the number of elements it needs to check in each step.
