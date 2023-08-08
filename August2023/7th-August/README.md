@@ -20,5 +20,5 @@
 #####  Then the only thing left is  Comparison
 
 - If the element at position `(i, j)` is `equal` to the target, then the target is found, and the function returns true.
-- If the element at position `(i, j)`  is `less than` the target, the target must be in the right half of the search space. So, the left pointer l is `updated` to `mid + 1`.
-- If the element at position `(i, j)` is `greater than` the target, the target must be in the left half of the search space. So, the right pointer r is `updated` to `mid`.
+- If the element at position `(i, j)`  is `less than` the target, the target must be in the right half of the search space. So, the `left` pointer l is updated to `mid + 1`.
+- If the element at position `(i, j)` is `greater than` the target, the target must be in the left half of the search space. So, the `right` pointer r is updated to `mid`.
