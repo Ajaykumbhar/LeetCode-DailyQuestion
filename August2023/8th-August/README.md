@@ -2,11 +2,11 @@
 
 #### Approach: Modified Binary Search
 
-1. **Problem Overview**: The problem provides an integer array `nums` sorted in ascending order (with distinct values), but the array might have been rotated at an unknown pivot index `k`. The task is to find the index of a given target element in the rotated sorted array `nums`. If the target is not present in the array, the algorithm should return `-1`.
+#### What? 
+> The algorithm uses a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array. The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
 
-2. **Binary Search**: The algorithm uses a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array. The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
-
-3. **Binary Search Loop**: The algorithm starts with two pointers, `str` and `end`, which initially point to the start and end of the array, respectively. It enters a loop that continues as long as the `str` pointer is less than or equal to the `end` pointer. This loop represents the binary search process.
+#### How? 
+> The algorithm starts with two pointers, `str` and `end`, which initially point to the start and end of the array, respectively. It enters a loop that continues as long as the `str` pointer is less than or equal to the `end` pointer. This loop represents the binary search process.
 
 4. **Calculate Midpoint**: In each iteration of the loop, the algorithm calculates the midpoint `mid` between the `str` and `end` pointers. The midpoint `mid` is calculated as `(str + end) / 2`.
 
