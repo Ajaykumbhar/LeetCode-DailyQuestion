@@ -1,4 +1,6 @@
-  Approach used in the code to solve the "Number of Music Playlists" problem step by step:
+### 920. Number of Music Playlists | Link <a href="https://leetcode.com/problems/number-of-music-playlists/"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="LeetCode Logo" width="18"> </a>
+  
+Approach used in the code to solve the "Number of Music Playlists" problem step by step:
 
 1. **Dynamic Programming (DP)**: The core idea behind this approach is to build a dynamic programming table to keep track of the number of possible playlists of different lengths and using different numbers of songs. By filling up this table iteratively, we can efficiently compute the final answer.
 
