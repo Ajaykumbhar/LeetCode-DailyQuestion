@@ -4,14 +4,14 @@
 
 #### What? 
 
-> We will use a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array.
+- We will use a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array.
   
 #### Why?
 
-> The modified binary search algorithm quickly reduces the number of elements it needs to check in each step.
-  - Making it efficient in finding the target element's index in the rotated sorted array.
+- The modified binary search algorithm quickly reduces the number of elements it needs to check in each step.
+  > Making it efficient in finding the target element's index in the rotated sorted array.
     
-> The time complexity of this algorithm is O(log n), where `n` is the number of elements in the array.
+- The time complexity of this algorithm is O(log n), where `n` is the number of elements in the array.
 
 #### How? 
 > The algorithm starts with two pointers, `str` and `end`, which initially point to the start and end of the array, respectively. It enters a loop that continues as long as the `str` pointer is less than or equal to the `end` pointer. This loop represents the binary search process.
