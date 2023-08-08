@@ -1,6 +1,6 @@
 ## 33. Search in Rotated Sorted Array | Link <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="LeetCode Logo" width="18"> </a>
 
-**Approach: Modified Binary Search**
+#### Approach: Modified Binary Search
 
 1. **Problem Overview**: The problem provides an integer array `nums` sorted in ascending order (with distinct values), but the array might have been rotated at an unknown pivot index `k`. The task is to find the index of a given target element in the rotated sorted array `nums`. If the target is not present in the array, the algorithm should return `-1`.
 
