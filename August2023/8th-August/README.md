@@ -4,7 +4,12 @@
 
 #### What? 
 - We will use a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array.
-> The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
+- The binary search approach is appropriate here because it allows the algorithm to narrow down the search space in each iteration.
+
+#### Why?
+
+- The modified binary search algorithm efficiently narrows down the search space in each iteration, allowing for quick identification of the target element's index in the rotated sorted array.
+- The time complexity of this algorithm is O(log n), where `n` is the number of elements in the array, which meets the requirement of O(log n) runtime complexity.
 
 #### How? 
 > The algorithm starts with two pointers, `str` and `end`, which initially point to the start and end of the array, respectively. It enters a loop that continues as long as the `str` pointer is less than or equal to the `end` pointer. This loop represents the binary search process.
@@ -27,4 +32,3 @@
 
 7. **Final Result**: If the loop exits without finding the target, the function returns `-1`, indicating that the target does not exist in the array.
 
-The modified binary search algorithm efficiently narrows down the search space in each iteration, allowing for quick identification of the target element's index in the rotated sorted array. The time complexity of this algorithm is O(log n), where `n` is the number of elements in the array, which meets the requirement of O(log n) runtime complexity.
