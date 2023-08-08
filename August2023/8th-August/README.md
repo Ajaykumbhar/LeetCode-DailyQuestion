@@ -26,7 +26,7 @@
 ##### Comparison of Midpoint and Boundaries:
   > The algorithm performs a comparison of the elements at indices str and mid to determine which half of the array might be sorted.
 
-###### If the left half of the search space is sorted (nums[str] <= nums[mid]):
+##### If the left half of the search space is sorted (nums[str] <= nums[mid]):
     
   - If the `target` >= `nums[str]` and <= `nums[mid]`, it must be in the `left half` of the array.
       
@@ -34,7 +34,7 @@
         
   - Otherwise, the target must be in the right half, So, the str pointer is updated to mid + 1.
 
- ###### If the right half of the search space is sorted:
+ ##### If the right half of the search space is sorted:
    - If the target is within this sorted right half, the search space is narrowed to the right half.
    - Otherwise, the target must be in the left half, so the search space is narrowed to the left half.
 
