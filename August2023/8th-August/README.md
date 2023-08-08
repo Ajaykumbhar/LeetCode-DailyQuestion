@@ -3,11 +3,14 @@
 #### Approach: Modified Binary Search
 
 #### What? 
+
 - We will use a modified version of the binary search algorithm to efficiently find the target element's index in the rotated sorted array.
+  
 #### Why?
 
 - The modified binary search algorithm quickly reduces the number of elements it needs to check in each step.
   - Making it efficient in finding the target element's index in the rotated sorted array.
+    
 - The time complexity of this algorithm is O(log n), where `n` is the number of elements in the array.
 
 #### How? 
