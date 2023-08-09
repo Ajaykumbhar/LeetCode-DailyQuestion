@@ -14,7 +14,7 @@
 1. Binary Search:
    
    **Defining left `l` and right `r`:** \\
-      `l = 0`
+      `l = 0` \\
       `r = maxDifference(nums)` ->  Difference between largest and smallest numbers 
 
 3. Greedy Pairing:
