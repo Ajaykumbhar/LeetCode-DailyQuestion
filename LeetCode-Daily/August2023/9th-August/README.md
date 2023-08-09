@@ -1,29 +1,30 @@
 ### 2616. Minimize the Maximum Difference of Pairs | Link <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="LeetCode Logo" width="18"> </a>
 
-#### What?
+##### What?
 
-##### Approach: Binary Search + Greedy Pairing
+> Approach: Binary Search + Greedy Pairing
 
-#### Why?
+##### Why?
 
  - `Binary search` is employed to efficiently narrow down the search space for the `minimum maximum difference`.
  - `Greedy pairing` helps in counting the number of pairs that can be formed within a `certain maximum difference`.
 
-#### How?
+##### How?
 
-1. Binary Search:
-   
-   **Defining left `l` and right `r`:** \\
-      `l = 0` \\
-      `r = maxDifference(nums)` ->  Difference between largest and smallest numbers 
+> **1. Sort the Array:**
 
-3. Greedy Pairing:
+ - The solution starts by sorting the given array nums in ascending order
+ - Sorting helps us identify pairs with small differences easily.
 
-For a given guess of the maximum difference, we iterate through the sorted array and pair up numbers greedily.
+> **2. Binary Search:**
+ - we start by making a guess for the maximum difference  `m = (l + r) / 2` and
+ - checking how many pairs of numbers can be formed with differences less than or equal  to this guess.
 
-If the difference between the current number and the previous number is less than or equal to our guess, we count it as a valid pair.
+> **3. Greedy Pairing:** (To count no. of pairs)
 
-This approach ensures that we count as many pairs as possible within the given maximum difference constraint.
+ - For a given guess of the maximum difference, we iterate through the sorted array and pair up numbers greedily.
+ - If the difference between the current number and the previous number is less than or equal to our guess, we count it as a valid pair.
+ - This approach ensures that we count as many pairs as possible within the given maximum difference constraint.
 
 Updating Range:
 
