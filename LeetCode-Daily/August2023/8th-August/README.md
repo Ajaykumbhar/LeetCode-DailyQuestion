@@ -28,7 +28,7 @@
 
 ##### If the left half of the search space is sorted (nums[str] <= nums[mid]):
     
-  - If the `target` >= `nums[str]` and <= `nums[mid]`, it must be in the `left half` of the array.
+  - If the `target` >= `nums[str]` and <= `nums[mid]`, it must be in the `left half` of the array
       
       - So, the end pointer is updated to `mid - 1` to narrow down the search space to the left half.
         
