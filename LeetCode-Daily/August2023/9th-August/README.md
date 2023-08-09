@@ -17,7 +17,7 @@
  - Sorting helps us identify pairs with small differences easily.
 
 > **2. Binary Search:**
- - we start by making a guess for the maximum difference  `m = (l + r) / 2` and
+ - we start by making a guess for the maximum difference  `mid = (l + r) / 2` and
  - checking how many pairs of numbers can be formed with differences less than or equal  to this guess.
 
 > **3. Greedy Pairing:** (To count no. of pairs)
@@ -26,20 +26,15 @@
  - If the difference between the current number and the previous number is less than or equal to our guess, we count it as a valid pair.
  - This approach ensures that we count as many pairs as possible within the given maximum difference constraint.
 
-Updating Range:
 
-Based on the count of pairs we get from the greedy pairing, we update the range for our guess.
+> **Based on the count of pairs we get from the greedy pairing, we update the range for our guess:**
 
-If the count of pairs is greater than or equal to the required number of pairs (p), it means we can potentially reduce the maximum difference. So, we move the upper limit of the range closer to the current guess.
+- If the count of pairs is greater than or equal to the required number of pairs (p), then we can reduce the maximum difference.
+  
+  - So, we move the upper limit `r` of the range closer to the current guess 'r = mid`.
 
-If the count of pairs is less than the required number of pairs (p), it means we need a larger maximum difference. So, we move the lower limit of the range further from the current guess.
+- Else: if the count of pairs is less than the required number of pairs (p), it means we need a larger maximum difference.
+  
+  - So, we move the lower limit `l` of the range further from the current guess 'l = mid + 1'.
 
-This updating of the range in each iteration of binary search helps us zero in on the optimal minimum maximum difference.
 
-Termination and Result:
-
-The binary search process continues until the lower limit of the range is no longer less than the upper limit.
-
-At this point, the binary search has converged to a single value, which is the minimum maximum difference that satisfies the given constraints.
-
-We return this value as the final answer.
