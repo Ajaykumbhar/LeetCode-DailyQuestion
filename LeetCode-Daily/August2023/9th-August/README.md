@@ -7,4 +7,38 @@
 #### Why?
 
  - `Binary search` is employed to efficiently narrow down the search space for the `minimum maximum difference`.
- - `Greedy pairing` helps in counting the `number of pairs` that can be formed within a `certain maximum difference`.
+ - `Greedy pairing` helps in counting the number of pairs that can be formed within a `certain maximum difference`.
+
+#### How?
+
+1. Binary Search:
+   
+   **Defining left `l` and right `r`:** \\
+      `l = 0`
+      `r = maxDifference(nums)` ->  Difference between largest and smallest numbers 
+
+3. Greedy Pairing:
+
+For a given guess of the maximum difference, we iterate through the sorted array and pair up numbers greedily.
+
+If the difference between the current number and the previous number is less than or equal to our guess, we count it as a valid pair.
+
+This approach ensures that we count as many pairs as possible within the given maximum difference constraint.
+
+Updating Range:
+
+Based on the count of pairs we get from the greedy pairing, we update the range for our guess.
+
+If the count of pairs is greater than or equal to the required number of pairs (p), it means we can potentially reduce the maximum difference. So, we move the upper limit of the range closer to the current guess.
+
+If the count of pairs is less than the required number of pairs (p), it means we need a larger maximum difference. So, we move the lower limit of the range further from the current guess.
+
+This updating of the range in each iteration of binary search helps us zero in on the optimal minimum maximum difference.
+
+Termination and Result:
+
+The binary search process continues until the lower limit of the range is no longer less than the upper limit.
+
+At this point, the binary search has converged to a single value, which is the minimum maximum difference that satisfies the given constraints.
+
+We return this value as the final answer.
