@@ -31,10 +31,10 @@
 
 - If the count of pairs is greater than or equal to the required number of pairs (p), then we can reduce the maximum difference.
   
-  - So, we move the upper limit `r` of the range closer to the current guess 'r = mid`.
+  - So, we move the upper limit `r` of the range closer to the current guess `r = mid`.
 
 - Else: if the count of pairs is less than the required number of pairs (p), it means we need a larger maximum difference.
   
-  - So, we move the lower limit `l` of the range further from the current guess 'l = mid + 1'.
+  - So, we move the lower limit `l` of the range further from the current guess `l = mid + 1`.
 
 
