@@ -1,5 +1,10 @@
 ## 33. Search in Rotated Sorted Array | Link <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="LeetCode Logo" width="18"> </a>
 
+### Understanding the Rotated Array:
+
+We are given a sorted array that has been rotated at an unknown pivot point. This means that the array is divided into two segments, each of which is sorted.
+For instance, consider the array [4, 5, 6, 6, 7, 0, 1, 2, 4, 4]. This array can be divided into two sorted segments: [4, 5, 6, 6, 7] and [0, 1, 2, 4, 4].
+
 ### Approach: Modified Binary Search
 
 #### What? 
