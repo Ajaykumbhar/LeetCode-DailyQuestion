@@ -33,47 +33,66 @@
 
 **2. Overlapping Subproblems:**
 4. [Fibonacci Numbers](https://leetcode.com/problems/fibonacci-number/)
+
 5. [Binomial Coefficient Calculation](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/)
+
 6. [Coin Change Problem](https://leetcode.com/problems/coin-change-2/)
 
 **3. Memoization and Tabulation:**
 7. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
 8. [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
 9. [Matrix Chain Multiplication](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)
 
 **4. Counting or Optimization:**
 10. [Knapsack Problem](https://leetcode.com/problems/coin-change/)
+
 11. [Partition Problem](https://leetcode.com/problems/partition-equal-subset-sum/)
+
 12. [Subset Sum Problem](https://leetcode.com/problems/partition-equal-subset-sum/)
 
 **5. Breaking Down Problem:**
 13. [Parenthesization to Maximize Expression Value](https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/)
+
 14. [Unique Paths in a Grid](https://leetcode.com/problems/unique-paths/)
+
 15. [Coin Change Problem](https://leetcode.com/problems/coin-change/)
 
 **6. Recursive Structure:**
 16. [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
+
 17. [Longest Repeated Substring](https://www.geeksforgeeks.org/longest-repeated-subsequence/)
+
 18. [Longest Common Substring](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 
 **7. Memoization Opportunities:**
 19. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+
 20. [Decode Ways](https://leetcode.com/problems/decode-ways/)
+
 21. [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
 
 **8. Combinatorial Problems:**
 22. [Permutation Coefficient](https://www.geeksforgeeks.org/permutation-coefficient/)
+
 23. [Number of BSTs](https://leetcode.com/problems/unique-binary-search-trees/)
+
 24. [Count of Derangements](https://www.geeksforgeeks.org/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/)
 
 **9. Pathfinding and Sequences:**
 25. [Shortest Path in a Grid](https://leetcode.com/problems/minimum-path-sum/)
+
 26. [Longest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)
+
 27. [Word Break Problem](https://leetcode.com/problems/word-break/)
 
 **10. Dependency on Previous Steps:**
 28. [Minimum Path Sum in a Grid](https://leetcode.com/problems/minimum-path-sum/)
+
 29. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
 30. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning-ii/)
 
-Please note that these links lead to external websites, and you might need an account on some platforms to access the problems. Always ensure that you respect the terms and conditions of the platforms you're using for practice. Happy problem-solving!
+- Please note that these links lead to external websites, and you might need an account on some platforms to access the problems. 
+- Always ensure that you respect the terms and conditions of the platforms you're using for practice. Happy problem-solving!
