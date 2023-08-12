@@ -1,6 +1,6 @@
 ### DP-Notes:
 
-#### Identifying whether a problem can be solved using dynamic programming (DP).
+#### Identifying whether a problem can be solved using dynamic programming (DP):
 
 - Here are some common characteristics and approaches to look for when trying to determine if a problem might have a DP solution:
 
