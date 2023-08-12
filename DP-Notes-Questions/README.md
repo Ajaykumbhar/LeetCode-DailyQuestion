@@ -24,7 +24,8 @@
 
 10. **Dependency on Previous Steps:** If the problem requires making decisions at each step based on the previous steps' results, DP might be a suitable approach.
 
-Remember, identifying DP solutions becomes easier with practice. It's helpful to study and solve various DP problems to become familiar with the patterns and techniques commonly used. As you gain experience, you'll develop an intuition for recognizing when DP might be applicable to a problem.
+#### Remember, identifying DP solutions becomes easier with practice. It's helpful to study and solve various DP problems to become familiar with the patterns and techniques commonly used. As you gain experience, you'll develop an intuition for recognizing when DP might be applicable to a problem.
+
 **1. Optimal Substructure:**
 1. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 2. [Edit Distance](https://leetcode.com/problems/edit-distance/)
