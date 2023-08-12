@@ -4,7 +4,7 @@
 
 - Here are some common characteristics and approaches to look for when trying to determine if a problem might have a DP solution:
 
-  1. **Optimal Substructure:**
+  1. <u>Optimal Substructure:</u>
      - DP problems often involve breaking down a larger problem into smaller subproblems. If the optimal solution to the larger problem can be constructed from optimal solutions to its subproblems, it's a good indicator that DP might be applicable.
 
 
