@@ -5,8 +5,9 @@
 
 - From the problem statement we can tell that it requires making decisions at each step based on the previous steps' results, DP might be a suitable approach.
   
-  Like : at each step (index) is influenced by whether valid partitions could be formed for previous indices.
-       For instance, whether a partition of 2 elements or a partition of 3 elements could be formed before the current index.
+  Like: at each step (index) is influenced by whether valid partitions could be formed for previous indices.
+
+  For instance, whether a partition of 2 elements or a partition of 3 elements could be formed before the current index.
 
 
 ### Approach: Modified Binary Search
