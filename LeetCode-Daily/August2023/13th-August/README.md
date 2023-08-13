@@ -1,7 +1,7 @@
 
-## 2369. Check if There is a Valid Partition For The Array | Link <a href="https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="LeetCode Logo" width="18"> </a>
+### 2369. Check if There is a Valid Partition For The Array | Link <a href="https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" alt="LeetCode Logo" width="18"> </a>
 
-### Understanding the Problem:
+#### Understanding the Problem:
 
 - From the problem statement we can tell that it requires making decisions at each step based on the previous steps' results, DP might be a suitable approach.
 Like : at each step (index) is influenced by whether valid partitions could be formed for previous indices.
