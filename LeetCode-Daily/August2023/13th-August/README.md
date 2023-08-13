@@ -34,11 +34,11 @@ Iterative Process:
 
   `dp[i - 2] && nums[i - 2] == nums[i - 1]:`
   
-- This condition checks if the current element can be added to a partition of two equal elements. If dp[i - 2] is true (meaning there's a valid partition for the first i - 2 elements) and the last two elements are equal, then the current array with the added element forms a valid partition.
+- This condition checks if the current element can be added to a partition of two equal elements. If `dp[i - 2]` is true (meaning there's a valid partition for the first i - 2 elements) and the last two elements are equal, then the current array with the added element forms a valid partition.
 
   `Conditions involving dp[i - 3]:`
   
-- These conditions check if the last three elements of the array can form a valid partition according to the three conditions specified in the problem statement. If any of these conditions hold true and dp[i - 3] is true, then the current array with the added element forms a valid partition.
+- These conditions check if the last three elements of the array can form a valid partition according to the three conditions specified in the problem statement. If any of these conditions hold true and `dp[i - 3]` is true, then the current array with the added element forms a valid partition.
 
-      - The final answer is the value of dp[n], which indicates whether there's a valid partition for the entire array
+      - The final answer is the value of `dp[n]`, which indicates whether there's a valid partition for the entire array
         of length n.
