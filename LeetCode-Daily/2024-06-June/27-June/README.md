@@ -2,7 +2,8 @@
 
 There is an undirected **star**  graph consisting of `n` nodes labeled from `1` to `n`. A star graph is a graph where there is one **center**  node and **exactly**  `n - 1` edges that connect the center node with every other node.
 
-You are given a 2D integer array `edges` where each `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` indicates that there is an edge between the nodes `u<sub>i</sub>` and `v<sub>i</sub>`. Return the center of the given star graph.
+You are given a 2D integer array `edges` where each `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` indicates that there is an edge between the nodes <code>u<sub>i</sub></code> and <code>v<sub>i</sub></code>. Return the center of the given star graph.
+
 
 **Example 1:** 
 <img alt="" src="https://assets.leetcode.com/uploads/2021/02/24/star_graph.png" style="width: 331px; height: 321px;">
