@@ -26,6 +26,6 @@ Output: 1
 - `3 <= n <= 10^5`
 - `edges.length == n - 1`
 - `edges[i].length == 2`
-- `1 <= u<sub>i,</sub> v<sub>i</sub> <= n`
-- `u<sub>i</sub> != v<sub>i</sub>`
+- 1 <=  <code>u<sub>i</sub></code> , <code>v<sub>i</sub></code> <= n
+- u<sub>i</sub> != v<sub>i</sub>
 - The given `edges` represent a valid star graph.
