@@ -48,82 +48,200 @@
 
 #### Remember, identifying DP solutions becomes easier with practice. It's helpful to study and solve various DP problems to become familiar with the patterns and techniques commonly used. As you gain experience, you'll develop an intuition for recognizing when DP might be applicable to a problem.
 
-**1. Optimal Substructure:**
-1. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-2. [Edit Distance](https://leetcode.com/problems/edit-distance/)
-3. [Rod Cutting Problem](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)
+# Dynamic Programming Problems
 
-**2. Overlapping Subproblems:**
+This repository contains a collection of dynamic programming problems categorized for easy reference.
 
-4. [Fibonacci Numbers](https://leetcode.com/problems/fibonacci-number/)
+## Table of Contents
 
-5. [Binomial Coefficient Calculation](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/)
+- [Fibonacci Style](#fibonacci-style)
+- [Knapsack](#knapsack)
+- [Longest Common Subsequence / Subarray / Substring](#longest-common-subsequence--subarray--substring)
+- [Edit Distance / String Matching](#edit-distance--string-matching)
+- [Palindrome](#palindrome)
+- [Game Theory](#game-theory)
+- [Tree / Graph DP](#tree--graph-dp)
+- [Sequence](#sequence)
+- [Other / Miscellaneous](#other--miscellaneous)
 
-6. [Coin Change Problem](https://leetcode.com/problems/coin-change-2/)
+## Problems
 
-**3. Memoization and Tabulation:**
+### Fibonacci Style
 
-7. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- **Characteristics**: Problems where the solution depends on the sum of previous results. They often involve steps, paths, or sequences.
+- **Example Problems**: Climbing Stairs, House Robber, Unique Paths
+- **Common Identifiers**:
+  - Problems asking for the number of ways to reach a specific state.
+  - Problems where each step/state is derived from one or more previous steps/states.
 
-8. [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Climbing Stairs                          | [LeetCode-70](https://leetcode.com/problems/climbing-stairs/description/)  |
+| House Robber                             | [LeetCode-198](https://leetcode.com/problems/house-robber/description/) |
+| House Robber II                          | [LeetCode-213](https://leetcode.com/problems/house-robber-ii/description/) |
+| Unique Paths                             | [LeetCode-62](https://leetcode.com/problems/unique-paths/description/)  |
+| Minimum Path Sum                         | [LeetCode-64](https://leetcode.com/problems/minimum-path-sum/description/)  |
+| Decode Ways                              | [LeetCode-91](https://leetcode.com/problems/decode-ways/description/)  |
+| Unique Paths II                          | [LeetCode-63](https://leetcode.com/problems/unique-paths-ii/description/)  |
+| N-th Tribonacci Number                   | [LeetCode-1137](https://leetcode.com/problems/n-th-tribonacci-number/description/)  |
 
-9. [Matrix Chain Multiplication](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)
+### Knapsack
 
-**4. Counting or Optimization:**
+- **Characteristics**: Optimization problems that involve selecting items with given weights and values to maximize/minimize a total value without exceeding a capacity.
+- **Example Problems**: Coin Change, Partition Equal Subset Sum, Combination Sum IV
+- **Common Identifiers**:
+  - Problems involving selecting items from a list to achieve a target value or weight.
+  - Problems that involve subsets or partitions of a given set.
 
-10. [Knapsack Problem](https://leetcode.com/problems/coin-change/)
 
-11. [Partition Problem](https://leetcode.com/problems/partition-equal-subset-sum/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Coin Change                              | [LeetCode-322](https://leetcode.com/problems/coin-change/description/)  |
+| Partition Equal Subset Sum               | [LeetCode-416](https://leetcode.com/problems/partition-equal-subset-sum/description/)  |
+| Combination Sum IV                       | [LeetCode-377](https://leetcode.com/problems/combination-sum-iv/description/)  |
+| Profitable Schemes                       | [LeetCode-879](https://leetcode.com/problems/profitable-schemes/description/)  |
+| Partition to K Equal Sum Subsets         | [LeetCode-698](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)  |
+| Minimum Cost to Merge Stones             | [LeetCode-1000](https://leetcode.com/problems/minimum-cost-to-merge-stones/description/)  |
+| Minimum Cost to Cut a Stick              | [LeetCode-1547](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)  |
+| Maximum Profit in Job Scheduling         | [LeetCode-1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)  |
+| Minimum Difficulty of a Job Schedule     | [LeetCode-1335](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/)  |
 
-12. [Subset Sum Problem](https://leetcode.com/problems/partition-equal-subset-sum/)
+### Longest Common Subsequence / Subarray / Substring
 
-**5. Breaking Down Problem:**
+- **Characteristics**: Problems that require finding the longest sequence or subsequence that satisfies certain conditions in one or more strings/arrays.
+- **Example Problems**: Longest Common Subsequence, Longest Palindromic Substring, Maximum Length of Repeated Subarray
+- **Common Identifiers**:
+  - Problems asking for the longest sequence or subsequence within a given string/array.
+  - Problems that involve comparisons between characters or elements in strings/arrays.
 
-13. [Parenthesization to Maximize Expression Value](https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/)
 
-14. [Unique Paths in a Grid](https://leetcode.com/problems/unique-paths/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Longest Common Subsequence               | [LeetCode-1143](https://leetcode.com/problems/longest-common-subsequence/description/)  |
+| Longest Increasing Subsequence           | [LeetCode-300](https://leetcode.com/problems/longest-increasing-subsequence/description/)  |
+| Longest Palindromic Substring            | [LeetCode-5](https://leetcode.com/problems/longest-palindromic-substring/description/)  |
+| Maximum Length of Repeated Subarray      | [LeetCode-718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)  |
+| Distinct Subsequences                    | [LeetCode-115](https://leetcode.com/problems/distinct-subsequences/description/)  |
+| Number of Longest Increasing Subsequence | [LeetCode-673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)  |
+| Longest Arithmetic Subsequence of Given Difference | [LeetCode-1218](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)  |
+| Longest Valid Parentheses                | [LeetCode-32](https://leetcode.com/problems/longest-valid-parentheses/description/)  |
 
-15. [Coin Change Problem](https://leetcode.com/problems/coin-change/)
+### Edit Distance / String Matching
 
-**6. Recursive Structure:**
+- **Characteristics**: Problems that involve transforming one string into another using a minimum number of operations, or matching patterns within strings.
+- **Example Problems**: Edit Distance, Regular Expression Matching, Wildcard Matching
+- **Common Identifiers**:
+  - Problems involving operations like insertions, deletions, or substitutions on strings.
+  - Problems that require matching patterns or sequences within strings.
 
-16. [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
 
-17. [Longest Repeated Substring](https://www.geeksforgeeks.org/longest-repeated-subsequence/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Edit Distance                            | [LeetCode-72](https://leetcode.com/problems/edit-distance/description/)  |
+| Regular Expression Matching              | [LeetCode-10](https://leetcode.com/problems/regular-expression-matching/description/)  |
+| Wildcard Matching                        | [LeetCode-44](https://leetcode.com/problems/wildcard-matching/description/)  |
+| Minimum ASCII Delete Sum for Two Strings | [LeetCode-712](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)  |
+| Delete Operation for Two Strings         | [LeetCode-583](https://leetcode.com/problems/delete-operation-for-two-strings/description/)  |
 
-18. [Longest Common Substring](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+### Palindrome
 
-**7. Memoization Opportunities:**
+- **Characteristics**: Problems focused on identifying or modifying palindromic sequences within strings.
+- **Example Problems**: Longest Palindromic Substring, Palindrome Partitioning II, Minimum Insertion Steps to Make a String Palindrome
+- **Common Identifiers**:
+  - Problems that ask about palindromic sequences or substrings.
+  - Problems requiring operations to form or identify palindromes.
 
-19. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
-20. [Decode Ways](https://leetcode.com/problems/decode-ways/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Longest Palindromic Substring            | [LeetCode-5](https://leetcode.com/problems/longest-palindromic-substring/description/)  |
+| Palindrome Partitioning II               | [LeetCode-132](https://leetcode.com/problems/palindrome-partitioning-ii/description/)  |
+| Palindrome Partitioning III              | [LeetCode-1278](https://leetcode.com/problems/palindrome-partitioning-iii/description/)  |
+| Minimum Insertion Steps to Make a String Palindrome | [LeetCode-1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)  |
 
-21. [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
+### Game Theory
 
-**8. Combinatorial Problems:**
+- **Characteristics**: Problems that involve making optimal moves in competitive scenarios, often modeled as games.
+- **Example Problems**: Predict the Winner, Stone Game, Burst Balloons
+- **Common Identifiers**:
+  - Problems involving two or more players making alternating moves.
+  - Problems that ask for the optimal strategy to win or maximize/minimize a score.
 
-22. [Permutation Coefficient](https://www.geeksforgeeks.org/permutation-coefficient/)
 
-23. [Number of BSTs](https://leetcode.com/problems/unique-binary-search-trees/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Predict the Winner                       | [LeetCode-486](https://leetcode.com/problems/predict-the-winner/description/)  |
+| Stone Game                               | [LeetCode-877](https://leetcode.com/problems/stone-game/description/)  |
+| Burst Balloons                           | [LeetCode-312](https://leetcode.com/problems/burst-balloons/description/)  |
+| New 21 Game                              | [LeetCode-837](https://leetcode.com/problems/new-21-game/description/)  |
+| Soup Servings                            | [LeetCode-808](https://leetcode.com/problems/soup-servings/description/)  |
 
-24. [Count of Derangements](https://www.geeksforgeeks.org/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/)
+### Tree / Graph DP
 
-**9. Pathfinding and Sequences:**
+- **Characteristics**: Problems that involve traversing or optimizing paths in trees or graphs.
+- **Example Problems**: Binary Tree Maximum Path Sum, Minimum Cost to Connect All Points, Parallel Courses II
+- **Common Identifiers**:
+  - Problems involving nodes and edges, often with constraints on paths or connections.
+  - Problems asking for the shortest, longest, or optimal path in a tree or graph.
 
-25. [Shortest Path in a Grid](https://leetcode.com/problems/minimum-path-sum/)
 
-26. [Longest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Binary Tree Maximum Path Sum             | [LeetCode-124](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)  |
+| Parallel Courses II                      | [LeetCode-1494](https://leetcode.com/problems/parallel-courses-ii/description/)  |
+| Transform to Chessboard                  | [LeetCode-782](https://leetcode.com/problems/transform-to-chessboard/description/)  |
+| Minimum Cost to Connect All Points       | [LeetCode-1584](https://leetcode.com/problems/minimum-cost-to-connect-all-points/description/)  |
+| Minimum Number of Flips to Convert Binary Matrix to Zero Matrix | [LeetCode-1284](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/description/)  |
 
-27. [Word Break Problem](https://leetcode.com/problems/word-break/)
+### Sequence
 
-**10. Dependency on Previous Steps:**
+- **Characteristics**: Problems involving sequences or arrays where the solution involves segmenting or manipulating the sequence to achieve a desired outcome.
+- **Example Problems**: Split Array Largest Sum, Shortest Common Supersequence, Frog Jump
+- **Common Identifiers**:
+  - Problems involving dividing or segmenting an array or sequence.
+  - Problems that ask for the optimal way to split or rearrange elements.
 
-28. [Minimum Path Sum in a Grid](https://leetcode.com/problems/minimum-path-sum/)
 
-29. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Split Array Largest Sum                  | [LeetCode-410](https://leetcode.com/problems/split-array-largest-sum/description/)  |
+| Split Array with Same Average            | [LeetCode-805](https://leetcode.com/problems/split-array-with-same-average/description/)  |
+| Shortest Common Supersequence            | [LeetCode-1092](https://leetcode.com/problems/shortest-common-supersequence/description/)  |
+| Frog Jump                                | [LeetCode-403](https://leetcode.com/problems/frog-jump/description/)  |
 
-30. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning-ii/)
+### Other / Miscellaneous
+
+- **Characteristics**: Problems that don't fit neatly into the other categories but still involve dynamic programming techniques.
+- **Example Problems**: Word Break, Minimum Number of Removals to Make Mountain Array, Count All Valid Pickup and Delivery Options
+- **Common Identifiers**:
+  - Problems that involve breaking down a larger problem into smaller subproblems.
+  - Problems that involve a mix of operations or constraints that require dynamic programming for optimal solutions.
+
+
+| Problem name                             | Problem Link   |
+|------------------------------------------|----------------|
+| Word Break                               | [LeetCode-139](https://leetcode.com/problems/word-break/description/)  |
+| Word Break II                            | [LeetCode-140](https://leetcode.com/problems/word-break-ii/description/)  |
+| Minimum Number of Removals to Make Mountain Array | [LeetCode-1671](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/)  |
+| Number of Ways to Stay in the Same Place After Some Steps | [LeetCode-1269](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/description/)  |
+| Russian Doll Envelopes                   | [LeetCode-354](https://leetcode.com/problems/russian-doll-envelopes/description/)  |
+| Paint House                              | [LeetCode-256](https://leetcode.com/problems/paint-house/description/)  |
+| Paint House II                           | [LeetCode-265](https://leetcode.com/problems/paint-house-ii/description/)  |
+| Paint Fence                              | [LeetCode-276](https://leetcode.com/problems/paint-fence/description/)  |
+| Freedom Trail                            | [LeetCode-514](https://leetcode.com/problems/freedom-trail/description/)  |
+| Constrained Subset Sum                   | [LeetCode-1425](https://leetcode.com/problems/constrained-subset-sum/description/)  |
+| Domino and Tromino Tiling                | [LeetCode-790](https://leetcode.com/problems/domino-and-tromino-tiling/description/)  |
+| Number of Ways to Paint N × 3 Grid       | [LeetCode-1411](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/description/)  |
+| Minimum Swaps to Make Sequences Increasing | [LeetCode-801](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/description/)  |
+| Painting a Grid with Three Different Colors | [LeetCode-1931](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/description/)  |
+| Knight Dialer                            | [LeetCode-935](https://leetcode.com/problems/knight-dialer/description/)  |
+| Strange Printer                          | [LeetCode-664](https://leetcode.com/problems/strange-printer/description/)  |
+| Removing Minimum Number of Magic Beans   | [LeetCode-2171](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/description/)  |
+| Count All Valid Pickup and Delivery Options | [LeetCode-1359](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/)  |
+| Make Array Strictly Increasing           | [LeetCode-1187](https://leetcode.com/problems/make-array-strictly-increasing/description/)  |
+| Interleaving String                      | [LeetCode-97](https://leetcode.com/problems/interleaving-string/description/)  |
+| Scramble String                          | [LeetCode-87](https://leetcode.com/problems/scramble-string/description/)  |
+
 
 - Please note that these links lead to external websites, and you might need an account on some platforms to access the problems. 
 - Always ensure that you respect the terms and conditions of the platforms you're using for practice. Happy problem-solving!
