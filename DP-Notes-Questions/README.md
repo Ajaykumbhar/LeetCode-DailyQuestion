@@ -55,6 +55,7 @@ This repository contains a collection of dynamic programming problems categorize
 ## Table of Contents
 
 - [Fibonacci Style](#fibonacci-style)
+- [Matrix](#matrix)
 - [Knapsack](#knapsack)
 - [Longest Common Subsequence / Subarray / Substring](#longest-common-subsequence--subarray--substring)
 - [Edit Distance / String Matching](#edit-distance--string-matching)
