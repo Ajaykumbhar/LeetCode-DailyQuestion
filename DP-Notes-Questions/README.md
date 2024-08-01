@@ -88,17 +88,16 @@ This repository contains a collection of dynamic programming problems categorize
 
 ### Matrix
 
-Characteristics: Problems that involve operations on a 2D grid or matrix, where the solution typically involves calculating values based on the values in neighboring cells. These problems often involve paths, sums, or transformations within the matrix.
+- **Characteristics**: Problems that involve operations on a 2D grid or matrix, where the solution typically involves calculating values based on the values in neighboring cells. These problems often involve paths, sums, or transformations within the matrix.
 
-Example Problems: Unique Paths, Minimum Path Sum, Unique Paths II, Triangle, Minimum Falling Path Sum, Maximal Square
+- **Example Problems**: Unique Paths, Minimum Path Sum, Unique Paths II, Triangle, Minimum Falling Path Sum, Maximal Square
 
-Common Identifiers:
-
-Problems involving finding the number of ways to reach a specific cell in a matrix.
-Problems asking for the minimum or maximum path sum from one cell to another.
-Problems involving transformations or operations that must be applied to each cell in the matrix.
-Problems that require calculating values based on adjacent cells (up, down, left, right, or diagonally).
-Example Problems and Links:
+- **Common Identifiers**:
+  - Problems involving finding the number of ways to reach a specific cell in a matrix.
+  - Problems asking for the minimum or maximum path sum from one cell to another.
+  - Problems involving transformations or operations that must be applied to each cell in the matrix.
+  - Problems that require calculating values based on adjacent cells (up, down, left, right, or diagonally).
+    
 | Problem name                             | Problem Link   |
 |------------------------------------------|----------------|
 | Ninja's Training                          | [Coding Ninja-Ninja’s Training](https://www.naukri.com/code360/problems/ninja-s-training_3621003)  |
