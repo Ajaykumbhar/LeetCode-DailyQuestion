@@ -101,9 +101,7 @@ This repository contains a collection of dynamic programming problems categorize
 | Problem name                             | Problem Link   |
 |------------------------------------------|----------------|
 | Ninja's Training                          | [Coding Ninja-Ninja’s Training](https://www.naukri.com/code360/problems/ninja-s-training_3621003)  |
-| Unique Paths                             | [LeetCode-62](https://leetcode.com/problems/unique-paths/description/)|
 | Minimum Path Sum                         | [LeetCode-64](https://leetcode.com/problems/minimum-path-sum/description/)  |
-| Unique Paths II                          | [LeetCode-63](https://leetcode.com/problems/unique-paths-ii/description/)  |
 | Triangle                                 | [LeetCode-120](https://leetcode.com/problems/triangle/description/)  |
 | Minimum Falling Path Sum                 | [LeetCode-931](https://leetcode.com/problems/minimum-falling-path-sum/description/)  |
 | Maximal Square                           | [LeetCode-221](https://leetcode.com/problems/maximal-square/description/)  |
