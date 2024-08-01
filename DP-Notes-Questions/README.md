@@ -76,6 +76,7 @@ This repository contains a collection of dynamic programming problems categorize
 
 | Problem name                             | Problem Link   |
 |------------------------------------------|----------------|
+| Ninja's Training                          | [Coding Ninja-Ninja’s Training](https://www.naukri.com/code360/problems/ninja-s-training_3621003)  |
 | Climbing Stairs                          | [LeetCode-70](https://leetcode.com/problems/climbing-stairs/description/)  |
 | House Robber                             | [LeetCode-198](https://leetcode.com/problems/house-robber/description/) |
 | House Robber II                          | [LeetCode-213](https://leetcode.com/problems/house-robber-ii/description/) |
