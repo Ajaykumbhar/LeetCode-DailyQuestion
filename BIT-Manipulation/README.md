@@ -205,44 +205,60 @@ Bit manipulation allows for efficient computation by working directly with bits 
 
 ---
 
+# Bit Manipulation Problem Set
+
+This repository focuses on a curated set of bit manipulation problems. These problems are selected to help strengthen your skills in bit manipulation and cover a variety of techniques, from basic bitwise operations to more advanced concepts.
+
+## 📝 Bit Manipulation Practice Problems
+
 ### Hard Questions
 
-21. [Maximum XOR of Two Numbers in an Array - LeetCode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
-    - **Concepts Covered**: Finding the maximum XOR pair, Trie data structure for optimization.
+| #  | Problem Title                                                                                  | Platform                                  |
+|----|------------------------------------------------------------------------------------------------|-------------------------------------------|
+| 21 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)  | LeetCode                                  |
+| 22 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)                | LeetCode                                  |
+| 23 | [Minimum XOR Value Pair](https://practice.geeksforgeeks.org/problems/minimum-xor-value-pair/0)                   | GeeksforGeeks                             |
+| 24 | [Sum of Bit Differences Among All Pairs](https://practice.geeksforgeeks.org/problems/sum-of-bit-differences-among-all-pairs/0) | GeeksforGeeks                             |
+| 25 | [Triplets with Bitwise AND Zero](https://leetcode.com/problems/triplets-with-bitwise-and-zero/)                  | LeetCode                                  |
+| 26 | [Count Total Set Bits in All Numbers from 1 to N](https://practice.geeksforgeeks.org/problems/count-total-set-bits-in-all-numbers-from-1-to-n/0) | GeeksforGeeks                             |
+| 27 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | LeetCode                                  |
+| 28 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)                             | LeetCode                                  |
+| 29 | [Find Minimum XOR between Two Elements](https://leetcode.com/problems/minimum-xor-between-two-elements-in-an-array/) | LeetCode                                  |
+| 30 | [Maximum XOR Queries](https://practice.geeksforgeeks.org/problems/maximum-xor-queries/1)                         | GeeksforGeeks                             |
 
-
-22. [Maximum Product of Word Lengths - LeetCode](https://leetcode.com/problems/maximum-product-of-word-lengths/)
-23. [Minimum XOR Value Pair - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/minimum-xor-value-pair/0)
-24. [Sum of Bit Differences Among All Pairs - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/sum-of-bit-differences-among-all-pairs/0)
-25. [Triplets with Bitwise AND Zero - LeetCode](https://leetcode.com/problems/triplets-with-bitwise-and-zero/)
-26. [Count Total Set Bits in All Numbers from 1 to N - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/count-total-set-bits-in-all-numbers-from-1-to-n/0)
-27. [Concatenation of Consecutive Binary Numbers - LeetCode](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)
-28. [Smallest Sufficient Team - LeetCode](https://leetcode.com/problems/smallest-sufficient-team/)
-29. [Find Minimum XOR between Two Elements - LeetCode](https://leetcode.com/problems/minimum-xor-between-two-elements-in-an-array/)
-30. [Maximum XOR Queries - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/maximum-xor-queries/1)
+---
 
 ### Advanced Problems
-31. [Beautiful Arrangement - LeetCode](https://leetcode.com/problems/beautiful-arrangement/)
-32. [XOR Paths in Matrix - LeetCode](https://leetcode.com/problems/xor-paths-in-a-grid/)
-33. [Shortest Path Visiting All Nodes - LeetCode](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
-34. [Bitwise AND of Numbers Range - LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
-35. [Smallest Integer Divisible by K - LeetCode](https://leetcode.com/problems/smallest-integer-divisible-by-k/)
-36. [Maximum AND Value - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/maximum-and-value/0)
-37. [Maximum XOR Subarray - LeetCode](https://leetcode.com/problems/maximum-xor-subarray/)
-38. [Maximize the Minimum - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/maximize-the-minimum/0)
-39. [Minimum Flips to Make a OR b Equal to c - LeetCode](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
-40. [Find the Longest Subarray XOR - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/longest-subarray-with-xor-value-K/0)
+
+| #  | Problem Title                                                                                  | Platform                                  |
+|----|------------------------------------------------------------------------------------------------|-------------------------------------------|
+| 31 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)                   | LeetCode                                  |
+| 32 | [XOR Paths in Matrix](https://leetcode.com/problems/xor-paths-in-a-grid/)                       | LeetCode                                  |
+| 33 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | LeetCode                               |
+| 34 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)     | LeetCode                                  |
+| 35 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | LeetCode                                 |
+| 36 | [Maximum AND Value](https://practice.geeksforgeeks.org/problems/maximum-and-value/0)            | GeeksforGeeks                             |
+| 37 | [Maximum XOR Subarray](https://leetcode.com/problems/maximum-xor-subarray/)                     | LeetCode                                  |
+| 38 | [Maximize the Minimum](https://practice.geeksforgeeks.org/problems/maximize-the-minimum/0)      | GeeksforGeeks                             |
+| 39 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | LeetCode                             |
+| 40 | [Find the Longest Subarray XOR](https://practice.geeksforgeeks.org/problems/longest-subarray-with-xor-value-K/0) | GeeksforGeeks                          |
+
+---
 
 ### Challenging Problems
-41. [Largest Rectangle in Histogram - LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)
-42. [Find XOR from 1 to N Efficiently - LeetCode](https://leetcode.com/problems/xor-operation-in-an-array/)
-43. [XOR Subsets Sum - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/xor-subsets-sum/0)
-44. [Palindrome Partitioning IV - LeetCode](https://leetcode.com/problems/palindrome-partitioning-iv/)
-45. [XOR Maximum Queries - LeetCode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
-46. [Range XOR Queries - GeeksforGeeks](https://practice.geeksforgeeks.org/problems/range-xor-queries/0)
-47. [Super Palindromes - LeetCode](https://leetcode.com/problems/super-palindromes/)
-48. [Maximum XOR of Two Numbers - LeetCode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
-49. [Count the Number of Valid Words in a String - LeetCode](https://leetcode.com/problems/count-the-number-of-valid-words-in-a-string/)
-50. [All Possible Full Binary Trees - LeetCode](https://leetcode.com/problems/all-possible-full-binary-trees/)
+
+| #  | Problem Title                                                                                  | Platform                                  |
+|----|------------------------------------------------------------------------------------------------|-------------------------------------------|
+| 41 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | LeetCode                                  |
+| 42 | [Find XOR from 1 to N Efficiently](https://leetcode.com/problems/xor-operation-in-an-array/)    | LeetCode                                  |
+| 43 | [XOR Subsets Sum](https://practice.geeksforgeeks.org/problems/xor-subsets-sum/0)                | GeeksforGeeks                             |
+| 44 | [Palindrome Partitioning IV](https://leetcode.com/problems/palindrome-partitioning-iv/)         | LeetCode                                  |
+| 45 | [XOR Maximum Queries](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)    | LeetCode                                  |
+| 46 | [Range XOR Queries](https://practice.geeksforgeeks.org/problems/range-xor-queries/0)            | GeeksforGeeks                             |
+| 47 | [Super Palindromes](https://leetcode.com/problems/super-palindromes/)                           | LeetCode                                  |
+| 48 | [Maximum XOR of Two Numbers](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | LeetCode                               |
+| 49 | [Count the Number of Valid Words in a String](https://leetcode.com/problems/count-the-number-of-valid-words-in-a-string/) | LeetCode                         |
+| 50 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)  | LeetCode                                  |
+
 
 ---
