@@ -1,6 +1,6 @@
 # Tree Problems - From Basics to Advanced
 
-This repository contains a curated list of LeetCode problems to help you learn about Trees from basic to advanced levels. The problems are organized by topic, making it easier to focus on specific concepts.
+This document categorizes tree-related problems on LeetCode. The problems are divided into various topics to help you systematically approach and solve them.
 
 ## Table of Contents
 
@@ -23,9 +23,6 @@ This repository contains a curated list of LeetCode problems to help you learn a
 | Invert Binary Tree | Easy | [Problem 226](https://leetcode.com/problems/invert-binary-tree/) |
 | Merge Two Binary Trees | Easy | [Problem 617](https://leetcode.com/problems/merge-two-binary-trees/) |
 
-# LeetCode Tree Problems
-
-This document categorizes tree-related problems on LeetCode. The problems are divided into various topics to help you systematically approach and solve them.
 
 ## Binary Tree Traversals
 
